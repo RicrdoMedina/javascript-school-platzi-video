@@ -1,0 +1,16 @@
+@import "../Globals.scss";
+
+.no-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#158660, #381f73);
+  min-height: calc(100vh - 200px);
+  color: #fff;
+  font-size: 32px;
+}
+
+.no-found__container--img {
+  animation: scale404 2s infinite;
+}

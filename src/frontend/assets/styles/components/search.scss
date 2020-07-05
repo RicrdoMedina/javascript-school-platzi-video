@@ -1,0 +1,31 @@
+@import "../Vars.scss";
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.main .main__title {
+  font-size: 1.8rem;
+  font-size: 34px;
+  margin: 3rem 0;
+  color: #fff;
+}
+.main .main__input--search {
+  border: solid 2px #fff;
+  height: 3rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  padding: 0 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+.main .main__input--search::placeholder {
+  color: #fff;
+}
